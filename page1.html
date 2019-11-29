@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Мой Минск</title>
+    </head>
+    <body bgcolor="#3366cc">
+        <bgsound src='Music/romans.midi'>
+        <h1 align='center'><font color='#ffff11'>Фотографии Минска</font></h1>
+        <br>
+        <div align='center'>
+            <marquee bgcolor="ffff11" behavior='alternate' scrolldelay='100' height="30%" width="45%" align="middle">
+                <font color='3366cc' size='8'><b>Минск - мой любимый город!</b></font>
+            </marquee>
+        </div>
+        <br>
+        <table bgcolor='white' align='center' width='42%' border="10" bordercolor='#99ccff'>
+            <tr>
+                <td><img src="Images/minsk.jpg"></td>
+                <td><img src="Images/minsk2.jpg"></td>
+                <td><img src="Images/venok.jpg"></td>
+                <td><img src="Images/opera.jpg"></td>
+            </tr>
+            <tr>
+                <td align='center'>Троицкое предместье</td>
+                <td align='center'>Улица Ленина</td>
+                <td align='center'>Парк Янки Купалы</td>
+                <td align='center'>Театр оперы и балета</td>
+            </tr>
+        </table>
+        <br>
+        <p align='center'>Заполните анкету</p>
+        <table align='center' width='38%' border="5" bordercolor='#99ccff'>
+            <td>
+                <table>
+                    <form action="index.html" method="post">
+                    <tr>
+                        <td height='30'>Пожайлуйста, напишите свое имя</td><td><input type="text" size="18"></td>
+                    </tr>
+                    <tr>
+                        <td height='30'>Вы считаете себя патриотом своего города?</td><td><input type="radio" name="s1" value="Y" checked> Да
+                        <input type="radio" name="s2" value="N"> Нет</td>
+                    </tr>
+                    <tr>
+                        <td height='30'>Выберите наиболее любимые места города:</td>
+                        <td>
+                            <select>
+                                <option value="">Михайловский сквер</option>
+                                <option value="">Троицкое предместье</option>
+                                <option value="">Парк Янки Купалы</option>
+                                <option value="">Парк Марата Казея</option>
+                                <option value="">Парк победы</option>
+                                <option value="">Улица Зыбицкая</option>
+                                <option value="">Улица Революционная</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height='50'>Знаете ли Вы историю своего города?</td>
+                        <td><input type="checkbox" name="t1" value="">Нет
+                        <input type="checkbox" name="t2" value="">Совсем немного
+                        <input type="checkbox" name="t3" value="" checked>Да</td>
+                    </tr>
+                    <tr>
+                        <td maxheight='50'>Пара слов о Минске:</td><td><textarea height='50' align="middle" rows="3" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td height='35' align='center'><input type="submit" value="Принять анкету"></td><td align='center'><input type="reset" value="Очистить анкету"></td>
+                    </tr>
+                    </form>
+            </td>
+
+            </table>
+        </table>
+
+    </body>
+</html>
